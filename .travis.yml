@@ -18,7 +18,7 @@ before_install:
 #  - cd ..
 
 before_script:
-  - pwd
+  - echo "begin to test......."
   - git clone https://github.com/thulab/tsfile.git
   - cd tsfile 
   - git checkout hxd_tsfile_sdk
